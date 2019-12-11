@@ -3,11 +3,6 @@
 
 module = "atveryend"
 
-installfiles = {
-'*.sty',
-'*.dtx','*.pdf'
-}
-
 
 textfiles = {"README.md"}
 unpackfiles = {'atveryend.dtx'}
