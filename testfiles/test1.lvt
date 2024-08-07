@@ -1,0 +1,12 @@
+\documentclass[12pt,oneside]{article}
+\input{regression-test}
+\makeatletter
+\undeclare@file@substitution{atveryend.sty}
+\usepackage{atveryend}
+\begin{document}
+\START
+\AtVeryVeryEnd     {\show\blubA}
+\AfterLastShipout  {\show\blubB}
+\AtVeryEndDocument {\show\blubC}
+\AtEndAfterFileList{\show\blubD}
+\end{document}
