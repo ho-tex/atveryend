@@ -12,7 +12,7 @@ maxprintline=10000
 checkruns = 2
 
 
-packtdszip  = true
+packtdszip  = false
 
 maxprintline=10000
 checkruns = 2
